@@ -1,0 +1,1 @@
+import{S as n,T as a,U as i}from"./DP3e9UH5.js";import{u as m}from"./ifNg6dYy.js";import{u as f}from"./DzwoSD2O.js";import"./IShi1APO.js";const h=n(async(p,c)=>{let e,t;const o=m("auth_tokens").value;if(!o)return a("/login");const r=f(),{data:s,error:u}=([e,t]=i(()=>r.auth.getUser(o)),e=await e,t(),e);if(u||!s)return a("/login")});export{h as default};
